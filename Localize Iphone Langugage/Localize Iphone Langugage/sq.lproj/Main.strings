@@ -1,0 +1,12 @@
+
+/* Class = "UITextField"; text = "LastName"; ObjectID = "1Sa-Q7-Vp9"; */
+"1Sa-Q7-Vp9.text" = "LastName";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "6RD-Ww-BuI"; */
+"6RD-Ww-BuI.normalTitle" = "Save";
+
+/* Class = "UITextField"; placeholder = "Check"; ObjectID = "aCR-eI-eBU"; */
+"aCR-eI-eBU.placeholder" = "Check";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "lmH-Gw-xhS"; */
+"lmH-Gw-xhS.text" = "Name";

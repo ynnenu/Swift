@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77BB869325BBA0D30084EED8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BB869225BBA0D30084EED8 /* AppDelegate.swift */; };
+		77BB869525BBA0D30084EED8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BB869425BBA0D30084EED8 /* SceneDelegate.swift */; };
+		77BB869725BBA0D30084EED8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BB869625BBA0D30084EED8 /* ViewController.swift */; };
+		77BB869A25BBA0D30084EED8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77BB869825BBA0D30084EED8 /* Main.storyboard */; };
+		77BB869C25BBA0D80084EED8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77BB869B25BBA0D80084EED8 /* Assets.xcassets */; };
+		77BB869F25BBA0D80084EED8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77BB869D25BBA0D80084EED8 /* LaunchScreen.storyboard */; };
+		77BB86AA25BBA0D80084EED8 /* Localize_Iphone_LangugageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BB86A925BBA0D80084EED8 /* Localize_Iphone_LangugageTests.swift */; };
+		77BB86B525BBA0D80084EED8 /* Localize_Iphone_LangugageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BB86B425BBA0D80084EED8 /* Localize_Iphone_LangugageUITests.swift */; };
+		77BB86DA25BBAFB90084EED8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77BB86DC25BBAFB90084EED8 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77BB86A625BBA0D80084EED8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77BB868725BBA0D30084EED8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77BB868E25BBA0D30084EED8;
+			remoteInfo = "Localize Iphone Langugage";
+		};
+		77BB86B125BBA0D80084EED8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77BB868725BBA0D30084EED8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77BB868E25BBA0D30084EED8;
+			remoteInfo = "Localize Iphone Langugage";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		77BB868F25BBA0D30084EED8 /* Localize Iphone Langugage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Localize Iphone Langugage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77BB869225BBA0D30084EED8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77BB869425BBA0D30084EED8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		77BB869625BBA0D30084EED8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		77BB869925BBA0D30084EED8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77BB869B25BBA0D80084EED8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77BB869E25BBA0D80084EED8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77BB86A025BBA0D80084EED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77BB86A525BBA0D80084EED8 /* Localize Iphone LangugageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Localize Iphone LangugageTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77BB86A925BBA0D80084EED8 /* Localize_Iphone_LangugageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localize_Iphone_LangugageTests.swift; sourceTree = "<group>"; };
+		77BB86AB25BBA0D80084EED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77BB86B025BBA0D80084EED8 /* Localize Iphone LangugageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Localize Iphone LangugageUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77BB86B425BBA0D80084EED8 /* Localize_Iphone_LangugageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localize_Iphone_LangugageUITests.swift; sourceTree = "<group>"; };
+		77BB86B625BBA0D80084EED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77BB86C525BBABDB0084EED8 /* sq */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sq; path = sq.lproj/Main.strings; sourceTree = "<group>"; };
+		77BB86C925BBABDB0084EED8 /* sq */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sq; path = sq.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		77BB86DB25BBAFB90084EED8 /* sq */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sq; path = sq.lproj/Localizable.strings; sourceTree = "<group>"; };
+		77BB86E025BBAFBE0084EED8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77BB868C25BBA0D30084EED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77BB86A225BBA0D80084EED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77BB86AD25BBA0D80084EED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77BB868625BBA0D30084EED8 = {
+			isa = PBXGroup;
+			children = (
+				77BB869125BBA0D30084EED8 /* Localize Iphone Langugage */,
+				77BB86A825BBA0D80084EED8 /* Localize Iphone LangugageTests */,
+				77BB86B325BBA0D80084EED8 /* Localize Iphone LangugageUITests */,
+				77BB869025BBA0D30084EED8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77BB869025BBA0D30084EED8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77BB868F25BBA0D30084EED8 /* Localize Iphone Langugage.app */,
+				77BB86A525BBA0D80084EED8 /* Localize Iphone LangugageTests.xctest */,
+				77BB86B025BBA0D80084EED8 /* Localize Iphone LangugageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77BB869125BBA0D30084EED8 /* Localize Iphone Langugage */ = {
+			isa = PBXGroup;
+			children = (
+				77BB869225BBA0D30084EED8 /* AppDelegate.swift */,
+				77BB869425BBA0D30084EED8 /* SceneDelegate.swift */,
+				77BB869625BBA0D30084EED8 /* ViewController.swift */,
+				77BB869825BBA0D30084EED8 /* Main.storyboard */,
+				77BB86DC25BBAFB90084EED8 /* Localizable.strings */,
+				77BB869B25BBA0D80084EED8 /* Assets.xcassets */,
+				77BB869D25BBA0D80084EED8 /* LaunchScreen.storyboard */,
+				77BB86A025BBA0D80084EED8 /* Info.plist */,
+			);
+			path = "Localize Iphone Langugage";
+			sourceTree = "<group>";
+		};
+		77BB86A825BBA0D80084EED8 /* Localize Iphone LangugageTests */ = {
+			isa = PBXGroup;
+			children = (
+				77BB86A925BBA0D80084EED8 /* Localize_Iphone_LangugageTests.swift */,
+				77BB86AB25BBA0D80084EED8 /* Info.plist */,
+			);
+			path = "Localize Iphone LangugageTests";
+			sourceTree = "<group>";
+		};
+		77BB86B325BBA0D80084EED8 /* Localize Iphone LangugageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				77BB86B425BBA0D80084EED8 /* Localize_Iphone_LangugageUITests.swift */,
+				77BB86B625BBA0D80084EED8 /* Info.plist */,
+			);
+			path = "Localize Iphone LangugageUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77BB868E25BBA0D30084EED8 /* Localize Iphone Langugage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77BB86B925BBA0D80084EED8 /* Build configuration list for PBXNativeTarget "Localize Iphone Langugage" */;
+			buildPhases = (
+				77BB868B25BBA0D30084EED8 /* Sources */,
+				77BB868C25BBA0D30084EED8 /* Frameworks */,
+				77BB868D25BBA0D30084EED8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Localize Iphone Langugage";
+			productName = "Localize Iphone Langugage";
+			productReference = 77BB868F25BBA0D30084EED8 /* Localize Iphone Langugage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77BB86A425BBA0D80084EED8 /* Localize Iphone LangugageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77BB86BC25BBA0D80084EED8 /* Build configuration list for PBXNativeTarget "Localize Iphone LangugageTests" */;
+			buildPhases = (
+				77BB86A125BBA0D80084EED8 /* Sources */,
+				77BB86A225BBA0D80084EED8 /* Frameworks */,
+				77BB86A325BBA0D80084EED8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77BB86A725BBA0D80084EED8 /* PBXTargetDependency */,
+			);
+			name = "Localize Iphone LangugageTests";
+			productName = "Localize Iphone LangugageTests";
+			productReference = 77BB86A525BBA0D80084EED8 /* Localize Iphone LangugageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		77BB86AF25BBA0D80084EED8 /* Localize Iphone LangugageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77BB86BF25BBA0D80084EED8 /* Build configuration list for PBXNativeTarget "Localize Iphone LangugageUITests" */;
+			buildPhases = (
+				77BB86AC25BBA0D80084EED8 /* Sources */,
+				77BB86AD25BBA0D80084EED8 /* Frameworks */,
+				77BB86AE25BBA0D80084EED8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77BB86B225BBA0D80084EED8 /* PBXTargetDependency */,
+			);
+			name = "Localize Iphone LangugageUITests";
+			productName = "Localize Iphone LangugageUITests";
+			productReference = 77BB86B025BBA0D80084EED8 /* Localize Iphone LangugageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77BB868725BBA0D30084EED8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					77BB868E25BBA0D30084EED8 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					77BB86A425BBA0D80084EED8 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 77BB868E25BBA0D30084EED8;
+					};
+					77BB86AF25BBA0D80084EED8 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 77BB868E25BBA0D30084EED8;
+					};
+				};
+			};
+			buildConfigurationList = 77BB868A25BBA0D30084EED8 /* Build configuration list for PBXProject "Localize Iphone Langugage" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				sq,
+			);
+			mainGroup = 77BB868625BBA0D30084EED8;
+			productRefGroup = 77BB869025BBA0D30084EED8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77BB868E25BBA0D30084EED8 /* Localize Iphone Langugage */,
+				77BB86A425BBA0D80084EED8 /* Localize Iphone LangugageTests */,
+				77BB86AF25BBA0D80084EED8 /* Localize Iphone LangugageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77BB868D25BBA0D30084EED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77BB869F25BBA0D80084EED8 /* LaunchScreen.storyboard in Resources */,
+				77BB86DA25BBAFB90084EED8 /* Localizable.strings in Resources */,
+				77BB869C25BBA0D80084EED8 /* Assets.xcassets in Resources */,
+				77BB869A25BBA0D30084EED8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77BB86A325BBA0D80084EED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77BB86AE25BBA0D80084EED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77BB868B25BBA0D30084EED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77BB869725BBA0D30084EED8 /* ViewController.swift in Sources */,
+				77BB869325BBA0D30084EED8 /* AppDelegate.swift in Sources */,
+				77BB869525BBA0D30084EED8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77BB86A125BBA0D80084EED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77BB86AA25BBA0D80084EED8 /* Localize_Iphone_LangugageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77BB86AC25BBA0D80084EED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77BB86B525BBA0D80084EED8 /* Localize_Iphone_LangugageUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77BB86A725BBA0D80084EED8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77BB868E25BBA0D30084EED8 /* Localize Iphone Langugage */;
+			targetProxy = 77BB86A625BBA0D80084EED8 /* PBXContainerItemProxy */;
+		};
+		77BB86B225BBA0D80084EED8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77BB868E25BBA0D30084EED8 /* Localize Iphone Langugage */;
+			targetProxy = 77BB86B125BBA0D80084EED8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		77BB869825BBA0D30084EED8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77BB869925BBA0D30084EED8 /* Base */,
+				77BB86C525BBABDB0084EED8 /* sq */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77BB869D25BBA0D80084EED8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77BB869E25BBA0D80084EED8 /* Base */,
+				77BB86C925BBABDB0084EED8 /* sq */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		77BB86DC25BBAFB90084EED8 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77BB86DB25BBAFB90084EED8 /* sq */,
+				77BB86E025BBAFBE0084EED8 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77BB86B725BBA0D80084EED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77BB86B825BBA0D80084EED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77BB86BA25BBA0D80084EED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Localize Iphone Langugage/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ynnenu.Localize-Iphone-Langugage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77BB86BB25BBA0D80084EED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Localize Iphone Langugage/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ynnenu.Localize-Iphone-Langugage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		77BB86BD25BBA0D80084EED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Localize Iphone LangugageTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ynnenu.Localize-Iphone-LangugageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Localize Iphone Langugage.app/Localize Iphone Langugage";
+			};
+			name = Debug;
+		};
+		77BB86BE25BBA0D80084EED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Localize Iphone LangugageTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ynnenu.Localize-Iphone-LangugageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Localize Iphone Langugage.app/Localize Iphone Langugage";
+			};
+			name = Release;
+		};
+		77BB86C025BBA0D80084EED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Localize Iphone LangugageUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ynnenu.Localize-Iphone-LangugageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Localize Iphone Langugage";
+			};
+			name = Debug;
+		};
+		77BB86C125BBA0D80084EED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Localize Iphone LangugageUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ynnenu.Localize-Iphone-LangugageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Localize Iphone Langugage";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77BB868A25BBA0D30084EED8 /* Build configuration list for PBXProject "Localize Iphone Langugage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77BB86B725BBA0D80084EED8 /* Debug */,
+				77BB86B825BBA0D80084EED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77BB86B925BBA0D80084EED8 /* Build configuration list for PBXNativeTarget "Localize Iphone Langugage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77BB86BA25BBA0D80084EED8 /* Debug */,
+				77BB86BB25BBA0D80084EED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77BB86BC25BBA0D80084EED8 /* Build configuration list for PBXNativeTarget "Localize Iphone LangugageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77BB86BD25BBA0D80084EED8 /* Debug */,
+				77BB86BE25BBA0D80084EED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77BB86BF25BBA0D80084EED8 /* Build configuration list for PBXNativeTarget "Localize Iphone LangugageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77BB86C025BBA0D80084EED8 /* Debug */,
+				77BB86C125BBA0D80084EED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77BB868725BBA0D30084EED8 /* Project object */;
+}
