@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  Localize test
+
+  Created by Eniela Vela on 10.12.20.
+  
+*/
+
+"HELLO" = "HELLO";
+"name"="name";
+"Send"="Send";
+"Language"="Language";
+"Firstname"="Firstname";
+
+"What is going on"="What is going on";

@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  Localize test
+
+  Created by Eniela Vela on 10.12.20.
+  
+*/
+
+"HELLO" = "CKEMI";
+"name"="emri";
+"Send"="Dergo";
+"Language"="Gjuha";
+"Firstname"="Emri";
+
+"What is going on"="Cfare po ndodh";

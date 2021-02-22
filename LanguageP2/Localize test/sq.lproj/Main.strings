@@ -1,0 +1,15 @@
+
+/* Class = "UIButton"; normalTitle = "Language"; ObjectID = "1jh-uN-sAf"; */
+
+
+/* Class = "UILabel"; text = "HELLO"; ObjectID = "QVH-y2-5dq"; */
+"QVH-y2-5dq.text" = "HELLO";
+
+/* Class = "UITextField"; text = "name"; ObjectID = "jMT-1i-Gl2"; */
+"jMT-1i-Gl2.text" = "name";
+
+/* Class = "UIButton"; normalTitle = "Send"; ObjectID = "lJC-JU-vBp"; */
+"lJC-JU-vBp.normalTitle" = "Send";
+"1jh-uN-sAf.normalTitle" = "Language";
+"kjl-Zt-MuN.text"="What is going on";
+"NaA-X5-r7A.text"="Firstname";
